@@ -40,7 +40,7 @@
             // 
             this.BtnProcess.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnProcess.Location = new System.Drawing.Point(39, 98);
-            this.BtnProcess.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnProcess.Margin = new System.Windows.Forms.Padding(4);
             this.BtnProcess.Name = "BtnProcess";
             this.BtnProcess.Size = new System.Drawing.Size(133, 31);
             this.BtnProcess.TabIndex = 0;
@@ -51,8 +51,8 @@
             // BtnClose
             // 
             this.BtnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnClose.Location = new System.Drawing.Point(267, 98);
-            this.BtnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnClose.Location = new System.Drawing.Point(546, 98);
+            this.BtnClose.Margin = new System.Windows.Forms.Padding(4);
             this.BtnClose.Name = "BtnClose";
             this.BtnClose.Size = new System.Drawing.Size(133, 31);
             this.BtnClose.TabIndex = 1;
@@ -66,7 +66,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtMsg.Location = new System.Drawing.Point(39, 153);
-            this.TxtMsg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtMsg.Margin = new System.Windows.Forms.Padding(4);
             this.TxtMsg.Multiline = true;
             this.TxtMsg.Name = "TxtMsg";
             this.TxtMsg.ReadOnly = true;
@@ -115,7 +115,7 @@
             this.Controls.Add(this.TxtMsg);
             this.Controls.Add(this.BtnClose);
             this.Controls.Add(this.BtnProcess);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmRead_Save_CSV";
             this.Text = "Change Group Name From CSV File";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

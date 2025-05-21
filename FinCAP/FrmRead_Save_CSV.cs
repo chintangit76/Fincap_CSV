@@ -23,6 +23,7 @@ namespace FinCAP_CSV
 
         private void BtnClose_Click(object sender, EventArgs e)
         {
+            //To CLose Application
             Application.Exit();
         }
 
